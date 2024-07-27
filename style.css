@@ -1,0 +1,82 @@
+.container {
+    text-align: center;
+    border: solid #000000 1px;
+    padding: 20px;
+    width: 25%;
+    background-color: white;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+body {
+    background-color: #C1C1C1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn {
+    padding: 3%;
+    border-radius: 15px;
+    border: solid 1px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    cursor: pointer;
+}
+
+.box {
+    height: 30px;
+    border: black 1px solid;
+    border-radius: 15px;
+    width: 60%;
+
+}
+.p1{
+    border: solid black 1px;
+    padding: 10px;
+    display: none;
+    color: green;
+    
+    text-align: center;
+    width: 50%;
+
+
+}
+.p2{
+    border: solid black 1px;
+    padding: 10px;
+    display: none;
+    color: red;
+    border: none;
+    text-align: center;
+}
+.p-container{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        width: 70%;
+    }
+    .p1{
+        padding: 30px;
+    }
+    
+
+}
+@media screen and (max-width:800px) {
+    .container{
+        width: 70%;
+    }
+    .p1{
+        padding: 30px;
+    }
+    
+}
+
+
